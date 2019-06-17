@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kutage_top.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hyM-Cq-BEJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1SA-PI-kGh">
+                                <rect key="frame" x="62" y="153" width="251" height="51"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="水族館図鑑">
+                                        <attributes>
+                                            <font key="NSFont" size="50" name="HiraMaruProN-W4"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="building_suizokukan.png" translatesAutoresizingMaskIntoConstraints="NO" id="ueU-HO-xob">
+                                <rect key="frame" x="103" y="438" width="266" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fish_character_kurage.png" translatesAutoresizingMaskIntoConstraints="NO" id="nrP-le-9dg">
+                                <rect key="frame" x="16" y="353" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_wave2.png" translatesAutoresizingMaskIntoConstraints="NO" id="dJB-7R-9aW">
+                                <rect key="frame" x="10" y="205" width="349" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1SA-PI-kGh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="133" id="CTF-T3-ALg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1SA-PI-kGh" secondAttribute="trailing" constant="62" id="EHL-H1-UUG"/>
+                            <constraint firstItem="hyM-Cq-BEJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="J62-XW-BNU"/>
+                            <constraint firstItem="hyM-Cq-BEJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KmP-JX-nrO"/>
+                            <constraint firstItem="1SA-PI-kGh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="P7w-mb-pqS"/>
+                            <constraint firstItem="hyM-Cq-BEJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="m4w-1r-mmA"/>
+                            <constraint firstItem="hyM-Cq-BEJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rMx-Xq-oVh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="building_suizokukan.png" width="800" height="745"/>
+        <image name="fish_character_kurage.png" width="650" height="682"/>
+        <image name="kutage_top.jpg" width="3456" height="5184"/>
+        <image name="line_wave2.png" width="333" height="35"/>
+    </resources>
+</document>
