@@ -12,3 +12,6 @@ Coremltools :              0.4.0
 
 ## System
 ![システム構成](https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/system.png)
+
+## Demo
+![demo](https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/demo.gif)
