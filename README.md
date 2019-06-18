@@ -11,7 +11,7 @@ Keras      :               2.0.4
 Coremltools :              0.4.0  
 
 ## System
-<img src="(https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/system.png" width="640px">
+<img src="https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/system.png" width="640px">
 
 ## Demo
 <img src="https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/demo.gif" width="320px">
