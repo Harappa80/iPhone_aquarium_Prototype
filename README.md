@@ -14,4 +14,4 @@ Coremltools :              0.4.0
 <img src="https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/system.png" width="640px">
 
 ## Demo
-<img src="https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/demo.gif" width="320px">
+<img src="https://github.com/kazuki80/iPhone_aquarium_Prototype/blob/images/demo_2.gif" width="320px">
