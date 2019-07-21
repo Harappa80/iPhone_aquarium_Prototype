@@ -17,7 +17,6 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         result_name = appDelegate.animal_name
-        //TextViewの生成
         let myTextView: UITextView = UITextView(frame: CGRect(x:16, y:176, width:353 , height:353))
         if let filePath = Bundle.main.path(forResource: appDelegate.animal_name, ofType: "txt"), let str = try? String(contentsOfFile: filePath, encoding: String.Encoding.utf8) {
             myTextView.text = str
@@ -35,9 +34,19 @@ class ViewController2: UIViewController {
             self.view.addSubview(myTextView)
             
         amimal_image.image = UIImage(named: result_name + ".png")
-        animal_name.text = result_name
-        
-            
+            if result_name == "turtle"{
+                animal_name.text = "ウミガメ"
+            }else if result_name == "dolphin"{
+                animal_name.text = "イルカ"
+            }else if result_name == "kumanomi"{
+                animal_name.text = "カクレクマノミ"
+            }else if result_name == "penguin"{
+                animal_name.text = "ペンギン"
+            }else if result_name == "jellyfish"{
+                animal_name.text = "クラゲ"
+            }else if result_name == "otter"{
+                animal_name.text = "カワウソ"
+            }
         }
     }
 
